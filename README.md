@@ -1,9 +1,3 @@
 # Apprentissage Profond des Emotions (APE)
 
-## Bibliography
-
-- **Disentangled and Controllable Face Image Generation via 3DImitative-Contrastive Learning** <br />
-    Deng et al. CVPR 2020 <br />
-    Training a GAN while controlling the 3DMM parameters <br />
-    [article](https://openaccess.thecvf.com/content_CVPR_2020/papers/Deng_Disentangled_and_Controllable_Face_Image_Generation_via_3D_Imitative-Contrastive_Learning_CVPR_2020_paper.pdf) <br />
-    ![alt text](https://github.com/c-penzo/APE/blob/main/Deng2020.png)
+Le laboratoire de mathématiques de Lens et le Centre de Recherche en Informatique de Lens participent au projet EMILE APE (Apprentissage Profond des Emotions). L’objet de ce projet est de permettre la mesure à distance de l’activité cardiaque à partir de vidéos de visages de personnes. Les applications potentielles pourraient s’avérer très utiles dans les domaines de la médecine a distance ou de la reconnaissance des émotions. La technique choisie pour accomplir cette tâche est l’apprentissage profond, une des branches de l’apprentissage automatique en Intelligence Artificielle (IA). À ce stade, nous disposons d'un prototype capable de prédire le rythme cardiaque de sujets relativement immobiles et avec un éclairage relativement constant. Nous prévoyons de l'étendre à des cas plus généraux. Une des difficultés rencontrées pour cette généralisation concerne le problème de la séparation des sources. En effet, les variations d’intensité lumineuse mesurée sur la peau sont autant dues à la variation d’intensité de la source lumineuse, aux mouvements du sujet, qu’à la variation du flux de sang. Or c’est cette dernière composante qui est importante pour notre problématique. C’est pourquoi nous souhaiterions développer des techniques de séparation de sources. Plus précisément, nous souhaiterions adapter à notre problématique des techniques très récentes introduites dans le domaine musical (“karaoke problem”) et dans celui du traitement de la parole (“speech enhancement” et “cocktail party problem”). 
